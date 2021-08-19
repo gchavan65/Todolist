@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+.main-div{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+  align-content: center;
+  flex-direction:column;
+  justify-content:center;
+  justify-items: center;;
+ background-color: rgb(159, 159, 233);
+}
+
+.center-div{
+  width: 25%;
+  height: 80vh;
+  background-color:white;
+  text-align: center;
+  border-radius:10px;
+  box-shadow: 2px 2px 2px rgb(65, 63, 63);
+}
+.input-field{
+text-align: center;
+  border: none; 
+ border-bottom: 2px solid red;
+  background-color:transparent;
+  font-size:20px;
+  font-weight: 500;
+  width:60%;
+  outline:none;
+  height:30px;
+  width: 60%;
+}
+
+
+ 
+ .fa-plus add-btn:active{
+  height: 40px;
+  width:40px;
+  color:red;}
+
+  .fa-plus add-btn{
+    height: 50px;
+  width:50px;
+  border: none;
+  outline: none;
+  border-radius: 50% ;
+  font-size: 30px;
+  color:red;
+  
+}
+
+.each items{
+  display: flex;
+  flex-direction: row;
+
+}
+  
+.showitems{
+
+color:white;
+background-color:black;}
+
+.todo-btn {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
